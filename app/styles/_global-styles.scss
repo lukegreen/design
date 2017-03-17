@@ -1,6 +1,6 @@
 
 body {
-   background: url(../images/portfolio-pic-3.jpg) no-repeat center fixed;
+   background: url(../images/duchess-for-web-small.jpg) no-repeat center fixed;
    /*background: url(../images/duchess-for-web-small.jpg) no-repeat center fixed;*/
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -8,7 +8,6 @@ body {
    background-size: cover;
    margin-top: 0;
    padding: 0;
-
  }
 
 h1, h2 {
@@ -50,7 +49,7 @@ li {
 
 #main-heading {
   margin-top: 400px;
-  color: white;
+  color: black;
   float: right;
 }
 
@@ -60,12 +59,12 @@ li {
     margin-left: 50px;
     width: 450px;
     font-size: 45pt;
-    color: white;
+    color: black;
   }
 }
 
 #main-heading span {
-  color: #00D3FF;
+  color: gray;
 }
 
 /*Personal Statement-----------------*/
@@ -73,7 +72,7 @@ li {
 .statement {
   position: relative;
   top: 400px;
-  background-color: #00A9CC;
+  background-color: black;
   height: auto;
   min-height: 300px;
 }
@@ -103,19 +102,19 @@ li {
 }
 
 #skill-set-one {
-  background-color: #58CFFF;
+  background-color: black;
 }
 
 #skill-set-two {
-  background-color: #52727F;
+  background-color: gray;
 }
 
 #skill-set-three {
-  background-color: #58CFFF;
+  background-color: black;
 }
 
 #skill-set-four {
-  background-color: #52727F;
+  background-color: gray;
 }
 
 .skill-label {
@@ -269,7 +268,7 @@ li {
   top: 400px;
   height: auto;
   min-height: 300px;
-  background-color: #58CFFF;
+  background-color: gray;
 }
 
 .bio h2, .bio p {
@@ -312,7 +311,7 @@ dl {
   top: 400px;
   height: auto;
   min-height: 300px;
-  background-color: #2C677F;
+  background-color: black;
 }
 
 .contact-spacer {
@@ -379,7 +378,7 @@ footer {
   height: auto;
   min-height: 100px;
   color: #58CFFF;
-  background-color: #2C677F;
+  background-color: gray;
   h5 {
     text-align: center;
     margin: 0;
