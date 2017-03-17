@@ -12,27 +12,27 @@ body {
 
 h1, h2 {
    color: black;
-   font-family: 'Ubuntu', sans-serif;
+   font-family: 'Cinzel', serif;
  }
 
 h3 {
   color: #9D9E9E;
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 12pt;
 }
 
 h4 {
   color: $highlight;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Cinzel', serif;
   font-size: 20pt;
 }
 
 p {
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans Condensed', sans-serif;
  }
 
 li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #first-divider {
@@ -84,7 +84,6 @@ li {
   margin-top: 50px;
   padding: 50px;
   color: white;
-  font-family: 'Open sans', sans-serif;
   font-size: 15pt;
 }
 
@@ -280,19 +279,18 @@ li {
   height: auto;
   margin: auto;
   padding: 50px;
-  font-family: 'Open sans', sans-serif;
   font-size: 15pt;
 }
 
 dt {
-  font-family: 'Ubuntu', sans-serif;
   font-size: 12pt;
   margin-top: 10px;
+  font-family: 'Cinzel',serif;
 }
 
 dd {
-  font-family: 'Open sans', sans-serif;
   font-size: 10pt;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 dt, dd {
@@ -340,7 +338,7 @@ figcaption {
   padding: 5px;
   text-align: center;
   color: white;
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 10pt;
 
 }
@@ -386,4 +384,5 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
   }
+  font-family: 'Open Sans Condensed', sans-serif;
 }
