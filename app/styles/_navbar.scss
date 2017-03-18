@@ -1,10 +1,19 @@
 .navbar {
+  background: none;
+  border: none;
+}
+
+.nav-bg-fade {
+  height: 50px;
+  width: 100%;
   background-color: black;
-  border-color: black;
+  position: fixed;
+  display: none;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
   color: white;
+  font-family: 'Cinzel', serif;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -14,7 +23,7 @@
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
-  background-color: black;
+  background: none;
 }
 
 .navbar-header button, .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus {

@@ -7,6 +7,14 @@ $(document).ready(function(){
     $(this).addClass('active');
   });
 
+  $(window).scroll(function(){
+    if ($(window).scrollTop() > 100 ) {
+      $('.nav-bg-fade').fadeIn(500);
+    } else {
+      $('.nav-bg-fade').fadeOut(500);
+ 	  };
+  });
+
   /*Skill box interactivity*/
 
   $('.skill-box').hover(function(){
