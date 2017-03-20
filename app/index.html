@@ -68,39 +68,12 @@
           <p>&ldquo;</p>
         </div>
         <div class="statement-container">
-          <p>"My name is Luke Green.  I am an artist and geek culture afficionado seeking new roles with highly creative teams. Take a look at the sections below for more about my design and digital illustration skills."</p>
+          <p>My name is Luke Green.  I am an artist and geek culture afficionado seeking new roles with highly creative teams. Take a look at the sections below for more about my design and digital illustration skills.</p>
         </div>
       </div><!--/Personal Statement-->
 
       <!--Skills-->
-      <div class="container-fluid skills" id="skills">
-        <div class="row">
-          <a href="#responsive-feature">
-            <div class="skill-box col-xs-12 col-md-3" id="skill-set-one">
-              <h2 class="skill-label">HTML5 and CSS</h2>
-              <h3 class="skill-detail">[SASS, Less, Bootstrap]</h3>
-            </div>
-          </a>
-          <a href="#responsive-feature">
-            <div class="skill-box col-xs-12 col-md-3" id="skill-set-two">
-              <h2 class="skill-label">Javascript</h2>
-              <h3 class="skill-detail">[jQuery, Angular, React, Ionic]</h3>
-            </div>
-          </a>
-          <a href="#illustration-feature">
-            <div class="skill-box col-xs-12 col-md-3" id="skill-set-three">
-              <h2 class="skill-label">Illustration</h2>
-              <h3 class="skill-detail">[Photoshop, Illustrator, InDesign]</h3>
-            </div>
-          </a>
-          <a href="#three-d-feature">
-            <div class="skill-box col-xs-12 col-md-3" id="skill-set-four">
-              <h2 class="skill-label">3D Modeling</h2>
-              <h3 class="skill-detail">[SketchUp, Blender, ZBrush]</h3>
-            </div>
-          </a>
-        </div>
-      </div><!--/Skills-->
+      <!--/Skills-->
 
       <!--Projects-->
       <div class="container-fluid projects" id="projects">
@@ -108,42 +81,99 @@
 
         <hr class="featurette-divider" id="first-divider">
 
-        <div class="row featurette" id="responsive-feature">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Illustration <span class="text-muted">From concept to production-ready assets.</span></h2>
-            <p class="lead">Stuff about my illustration process.</p>
-            <button class="btn btn-primary portfolio-button" id="application-button" type="button" data-toggle="collapse" data-target="#application-samples" aria-expanded="false" aria-controls="collapseExample">
-              Projects
-            </button>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" id="responsive-sample" src="images/Rovertrak-wireframes.jpg" alt="Mobile mock-ups of the Rovertrak application">
-          </div>
-        </div>
+        <section class="portfolio">
+  <div class="container">
+    <div class="row">
 
-        <div class="row application-samples">
-          <div class="collapse" id="application-samples">
-            <div class="container-fluid well portfolio-samples">
-              <div class="row">
-                <a href="#application-modal-one" data-toggle="modal" data-target="#application-modal-one">
-                  <div class="col-xs-12 col-md-4 sample-box sample-box-one" id="application-sample-one">
-                    <div class="sample-box-overlay"><h2>Zeroic Games</h2></div>
-                  </div>
+      <ul class="portfolio-sorting list-inline text-center">
+        <li><a href="#" data-group="all" class="active">All</a></li>
+        <li><a href="#" data-group="people">People</a></li>
+        <li><a href="#" data-group="simpsons">Simpsons</a></li>
+        <li><a href="#" data-group="futurama">Futurama</a></li>
+      </ul> <!--end portfolio sorting -->
+
+      <ul class="portfolio-items list-unstyled" id="grid">
+
+        <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["people"]'>
+          <figure class="portfolio-item">
+            <a href="#">
+              <img src="http://lorempixel.com/700/400/people/1" alt="Item 1" class="img-responsive">
+            </a>
+          </figure>
+        </li>
+
+        <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["people"]'>
+            <figure class="portfolio-item">
+                <a href="#">
+                    <img src="http://lorempixel.com/700/400/people/7" alt="" class="img-responsive">
                 </a>
-                <a href="#application-modal-two" data-toggle="modal" data-target="#application-modal-two">
-                  <div class="col-xs-12 col-md-4 sample-box sample-box-two" id="application-sample-two">
-                    <div class="sample-box-overlay"><h2>RoverTrak</h2></div>
-                  </div>
+            </figure>
+        </li>
+
+       <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["futurama"]'>
+          <figure class="portfolio-item">
+              <a href="#">
+                  <img src="http://lorempicsum.com/futurama/700/400/1" alt="" class="img-responsive">
+              </a>
+          </figure>
+        </li>
+
+        <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["futurama"]'>
+          <figure class="portfolio-item">
+              <a href="#">
+                  <img src="http://lorempicsum.com/futurama/700/400/2" alt="" class="img-responsive">
+              </a>
+          </figure>
+        </li>
+
+        <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["simpsons", "people"]'>
+          <figure class="portfolio-item">
+              <a href="#">
+                  <img src="http://lorempicsum.com/simpsons/700/400/1" alt="" class="img-responsive">
+              </a>
+          </figure>
+        </li>
+
+        <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["simpsons"]'>
+          <figure class="portfolio-item">
+              <a href="#">
+                  <img src="http://lorempicsum.com/simpsons/700/400/3" alt="" class="img-responsive">
+              </a>
+          </figure>
+        </li>
+
+        <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["people"]'>
+            <figure class="portfolio-item">
+                <a href="#">
+                    <img src="http://lorempixel.com/700/400/people/9" alt="" class="img-responsive">
                 </a>
-                <a href="#application-modal-three" data-toggle="modal" data-target="#application-modal-three">
-                  <div class="col-xs-12 col-md-4 sample-box sample-box-one" id="application-sample-three">
-                    <div class="sample-box-overlay"><h2>API Superstore</h2></div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+            </figure>
+        </li>
+
+         <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["simpsons"]'>
+          <figure class="portfolio-item">
+              <a href="#">
+                  <img src="http://lorempicsum.com/simpsons/700/400/4" alt="" class="img-responsive">
+              </a>
+          </figure>
+        </li>
+
+        <li class="col-md-4 col-sm-4 col-xs-6" data-groups='["futurama"]'>
+          <figure class="portfolio-item">
+              <a href="#">
+                  <img src="http://lorempicsum.com/futurama/700/400/5" alt="" class="img-responsive">
+              </a>
+          </figure>
+        </li>
+
+        <!-- sizer -->
+        <li class="col-md-4 col-sm-4 col-xs-6 shuffle_sizer"></li>
+
+      </ul> <!--end portfolio grid -->
+
+      </div> <!--end row -->
+    </div> <!-- end container-->
+</section>
 
 
         <hr class="featurette-divider">
@@ -232,6 +262,7 @@
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/shufflejs/dist/shuffle.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

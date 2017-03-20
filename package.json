@@ -56,5 +56,8 @@
         2
       ]
     }
+  },
+  "dependencies": {
+    "shufflejs": "^4.1.0"
   }
 }

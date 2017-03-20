@@ -7,6 +7,8 @@ $(document).ready(function(){
     $(this).addClass('active');
   });
 
+  /*Fade in nav background*/
+
   $(window).scroll(function(){
     if ($(window).scrollTop() > 100 ) {
       $('.nav-bg-fade').fadeIn(500);
@@ -23,5 +25,8 @@ $(document).ready(function(){
   }, function(){
     $(this).children('h2').fadeIn();
   });
+
+  /*Shuffle------------*/
+
 
 })
