@@ -26,7 +26,4 @@ $(document).ready(function(){
     $(this).children('h2').fadeIn();
   });
 
-  /*Shuffle------------*/
-
-
 })
